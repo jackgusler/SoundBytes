@@ -19,7 +19,8 @@ class SoundBytes: public BakkesMod::Plugin::BakkesModPlugin
 	//Boilerplate
 	void onLoad() override;
 	void onUnload() override; // Uncomment and implement if you need a unload method
-	void playSounds();
+
+	void carHit();
 
 public:
 	void RenderSettings() override; // Uncomment if you wanna render your own tab in the settings menu
